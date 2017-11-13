@@ -1,0 +1,6 @@
+S={00000,10000,01000,00100,00010,00001}
+A={Enter critical,Exit critical}
+->={<00000,Enter critical,10000>,<10000,Exit critical,00000>,<00000,Enter critical,01000>,<01000,Exit critical,00000>,<00000,Enter critical,00100>,<00100,Exit critical,00000>,<00000,Enter critical,00010>,<00010,Exit critical,00000>,<00000,Enter critical,00001>,<00001,Exit critical,00000>}
+I={00000}
+AP={n1,n2,n3,n4,n5,w1,w2,w3,w4,w5,c1,c2,c3,c4,c5}
+L(00000)={w1,w2,w3,w4,w5},L(10000)={c1,w2,w3,w4,w5},L(01000)={w1,c2,w3,w4,w5},L(00100)={w1,w2,c3,w4,w5},L(00010)={w1,w2,w3,c4,w5},L(00001)={w1,w2,w3,w4,c5}
